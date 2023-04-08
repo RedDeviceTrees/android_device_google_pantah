@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-TARGET_KERNEL_DIR ?= device/google/pantah-kernel
+TARGET_KERNEL_DIR := device/google/pantah-kernel
 TARGET_BOARD_KERNEL_HEADERS := device/google/pantah-kernel/kernel-headers
 
 $(call inherit-product-if-exists, vendor/google_devices/pantah/prebuilts/device-vendor-cloudripper.mk)
